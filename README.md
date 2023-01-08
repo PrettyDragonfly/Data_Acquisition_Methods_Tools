@@ -5,7 +5,7 @@ Data Acquisition Methods
 
 ## Context
 
-This repository is related to a university project about Threat Intelligence, and Malware Information Sharing Platform (MISP).
+This repository is linked to an academic project on Threat Intelligence and Malware Information Sharing Platform (MISP).
 
 ## Autor
 
