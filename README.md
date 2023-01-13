@@ -1,20 +1,20 @@
-# Title
+# Title :floppy_disk:
 Data Acquisition Methods
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-## Context
+## Context :mortar_board:
 
 This repository is linked to an academic project on Threat Intelligence and Malware Information Sharing Platform (MISP).
 
 The goal of this project is to define a taxonomy for data acquisition methods and to contribute to the MISP project by proposing this taxonomy.
 
-## Autor
+## Autor :bust_in_silhouette:
 
 * **Camille Bour** _alias_ [@PrettyDragonfly](https://github.com/PrettyDragonfly)
 
-## Sources
+## Sources :sweat_drops:
 
 To find the data useful for the creation of this taxonomy, I used the following sites:
 * https://www.eccouncil.org/cybersecurity-exchange/computer-forensics/data-acquisition-digital-forensics/
