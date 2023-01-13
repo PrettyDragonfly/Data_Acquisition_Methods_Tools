@@ -12,3 +12,8 @@ The goal of this project is to define a taxonomy for data acquisition methods an
 ## Autor
 
 * **Camille Bour** _alias_ [@PrettyDragonfly](https://github.com/PrettyDragonfly)
+
+## Sources
+
+To find the data useful for the creation of this taxonomy, I used the following sites:
+* https://www.eccouncil.org/cybersecurity-exchange/computer-forensics/data-acquisition-digital-forensics/
