@@ -126,5 +126,5 @@ taxonomy.predicates = {
     'disk-acquisition': disk_acquisition_predicate,
 }
 
-with open("../json/taxonomy.json", 'wt', encoding='utf-8') as f:
+with open("../json/data-acquisition-methods.json", 'wt', encoding='utf-8') as f:
     json.dump(taxonomy.to_dict(), f, indent=2, ensure_ascii=False)
