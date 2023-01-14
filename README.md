@@ -2,13 +2,13 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 # Title :floppy_disk:
-Data Acquisition Methods
+Data Acquisition Methods and Tools
 
 ## Context :mortar_board:
 
 This repository is linked to an academic project on Threat Intelligence and Malware Information Sharing Platform (MISP).
 
-The goal of this project is to define a taxonomy for data acquisition methods and to contribute to the MISP project by proposing this taxonomy.
+The goal of this project is to define taxonomies for data acquisition methods and tools and to contribute to the MISP project by proposing this taxonomies.
 
 ## Autor :bust_in_silhouette:
 
@@ -16,6 +16,6 @@ The goal of this project is to define a taxonomy for data acquisition methods an
 
 ## Sources :sweat_drops:
 
-To find the data useful for the creation of this taxonomy, I used the following sites:
+To find the data useful for the creation of this taxonomies, I used the following sites:
 * https://github.com/cugu/awesome-forensics
 * https://www.eccouncil.org/cybersecurity-exchange/computer-forensics/data-acquisition-digital-forensics/
