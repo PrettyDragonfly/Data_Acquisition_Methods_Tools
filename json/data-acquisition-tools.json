@@ -1,0 +1,174 @@
+{
+  "namespace": "data-acquisition-tools",
+  "description": "This taxonomy aims to classify data acquisition tools.",
+  "version": 1,
+  "expanded": "Data acquisition tools",
+  "predicates": [
+    {
+      "value": "disk_acquisition",
+      "expanded": "Disk acquisition",
+      "description": "Methods used when acquiring data from disk"
+    },
+    {
+      "value": "memory_acquisition_predicate",
+      "expanded": "Memory acquisition",
+      "description": "Methods used when acquiring data from network"
+    },
+    {
+      "value": "network_acquisition_predicate",
+      "expanded": "Network acquisition"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "disk_acquisition",
+      "entry": [
+        {
+          "value": "disk_arbitrator",
+          "expanded": "Disk Arbitrator",
+          "description": "A Mac OS X forensic utility designed to help the user ensure correct forensic procedures are followed during imaging of a disk device"
+        },
+        {
+          "value": "imagemounter",
+          "expanded": "imagemounter",
+          "description": "Command line utility and Python package to ease the (un)mounting of forensic disk images"
+        },
+        {
+          "value": "libewf",
+          "expanded": "libewf",
+          "description": "Libewf is a library and some tools to access the Expert Witness Compression Format (EWF, E01)"
+        },
+        {
+          "value": "pancakeviewer",
+          "expanded": "PancakeViewer",
+          "description": "Disk image viewer based in dfvfs, similar to the FTK Imager viewer"
+        },
+        {
+          "value": "xmount",
+          "expanded": "xmount",
+          "description": "Convert between different disk image formats"
+        },
+        {
+          "value": "artifactcollector",
+          "expanded": "artifactcollector",
+          "description": "A customizable agent to collect forensic artifacts on any Windows, macOS or Linux system"
+        },
+        {
+          "value": "artifactextractor",
+          "expanded": "ArtifactExtractor",
+          "description": "Extract common Windows artifacts from source images and VSCs"
+        },
+        {
+          "value": "avml",
+          "expanded": "AVML",
+          "description": "A portable volatile memory acquisition tool for Linux"
+        },
+        {
+          "value": "belkasoft_ram_capturer",
+          "expanded": "Belkasoft RAM Capturer",
+          "description": "Volatile Memory Acquisition Tool"
+        },
+        {
+          "value": "crowdresponse",
+          "expanded": "CrowdResponse",
+          "description": "A static host data collection tool by CrowdStrike"
+        },
+        {
+          "value": "dfir_orc",
+          "expanded": "DFIR ORC",
+          "description": "Forensics artefact collection tool for systems running Microsoft Windows"
+        },
+        {
+          "value": "fastir_collector",
+          "expanded": "FastIR Collector",
+          "description": "Collect artifacts on windows"
+        },
+        {
+          "value": "fireeye_memoryze",
+          "expanded": "FireEye Memoryze",
+          "description": "A free memory forensic software "
+        },
+        {
+          "value": "lime",
+          "expanded": "LiME",
+          "description": "Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, formerly called DMD"
+        },
+        {
+          "value": "magnet_ram_capture",
+          "expanded": "Magnet RAM Capture",
+          "description": "A free imaging tool designed to capture the physical memory "
+        },
+        {
+          "value": "unix_collector",
+          "expanded": "unix_collector",
+          "description": "A live forensic collection script for UNIX-like systems as a single script."
+        },
+        {
+          "value": "velociraptor",
+          "expanded": "Velociraptor",
+          "description": "Velociraptor is a tool for collecting host based state information using Velocidex Query Language (VQL) queries"
+        },
+        {
+          "value": "wintriage",
+          "expanded": "WinTriage",
+          "description": "Wintriage is a live response tool that extracts Windows artifacts. It must be executed with local or domain administrator privileges and recommended to be done from an external drive."
+        }
+      ]
+    },
+    {
+      "predicate": "memory_acquisition_predicate",
+      "entry": [
+        {
+          "value": "invtero.net",
+          "expanded": "inVtero.net",
+          "description": "High speed memory analysis framework developed in .NET supports all Windows x64, includes code integrity and write support"
+        },
+        {
+          "value": "keefarce",
+          "expanded": "KeeFarce",
+          "description": "Extract KeePass passwords from memory"
+        },
+        {
+          "value": "memprocfs",
+          "expanded": "MemProcFS",
+          "description": "An easy and convenient way of accessing physical memory as files a virtual file system."
+        },
+        {
+          "value": "rekall",
+          "expanded": "Rekall",
+          "description": "Memory Forensic Framework"
+        },
+        {
+          "value": "volatility",
+          "expanded": "volatility",
+          "description": "The memory forensic framework"
+        },
+        {
+          "value": "volutility",
+          "expanded": "VolUtility",
+          "description": "Web App for Volatility framework"
+        }
+      ]
+    },
+    {
+      "predicate": "network_acquisition_predicate",
+      "entry": [
+        {
+          "value": "kismet",
+          "expanded": "Kismet",
+          "description": "A passive wireless sniffer"
+        },
+        {
+          "value": "networkminer",
+          "expanded": "NetworkMiner",
+          "description": "Network Forensic Analysis Tool"
+        },
+        {
+          "value": "wireshark",
+          "expanded": "WireShark",
+          "description": "A network protocol analyzer"
+        }
+      ]
+    }
+  ]
+}

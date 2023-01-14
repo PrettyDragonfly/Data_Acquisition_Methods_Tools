@@ -1,8 +1,8 @@
-# Title :floppy_disk:
-Data Acquisition Methods
-
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+# Title :floppy_disk:
+Data Acquisition Methods
 
 ## Context :mortar_board:
 
@@ -17,4 +17,5 @@ The goal of this project is to define a taxonomy for data acquisition methods an
 ## Sources :sweat_drops:
 
 To find the data useful for the creation of this taxonomy, I used the following sites:
+* https://github.com/cugu/awesome-forensics
 * https://www.eccouncil.org/cybersecurity-exchange/computer-forensics/data-acquisition-digital-forensics/

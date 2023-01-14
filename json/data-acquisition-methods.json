@@ -8,31 +8,25 @@
       "value": "disk_acquisition",
       "expanded": "Disk acquisition",
       "description": "Methods used when acquiring data from disk"
+    },
+    {
+      "value": "memory_acquisition_predicate",
+      "expanded": "Memory acquisition",
+      "description": "Methods used when acquiring data from network"
+    },
+    {
+      "value": "network_acquisition_predicate",
+      "expanded": "Network acquisition"
     }
   ],
   "values": [
     {
-      "predicate": "disk_acquisition",
+      "predicate": "memory_acquisition_predicate",
       "entry": [
         {
-          "value": "bit_stream_disk_to_image_files",
-          "expanded": "Bit-stream disk-to-image files",
-          "description": "This is the most common data acquisition method in the event of a cybercrime. It involves cloning a disk drive, which allows for the complete preservation of all necessary evidence. Programs used to create bit-stream disk-to-image files include FTK, SMART, and ProDiscover, among others."
-        },
-        {
-          "value": "bit_stream_disk_to_disk_files",
-          "expanded": "Bit-stream disk-to-disk files ",
-          "description": "When it  is not possible to create an exact copy of a hard drive or network, different tools can be used to create a disk-to-disk copy. While certain parameters of the hard drive may be changed, the files will remain the same. "
-        },
-        {
-          "value": "logical_acquisition",
-          "expanded": "Logical acquisition ",
-          "description": "Logical acquisition involves collecting files that are specifically related to the case under investigation. This technique is typically used when an entire drive or network is too large to be copied. "
-        },
-        {
-          "value": "sparse_acquisition",
-          "expanded": "Sparse acquisition ",
-          "description": "There are five steps in a digital forensics investigation, the first two of which are the most critical during data acquisition (EC-Council, 2021b):IdentificationPreservationAnalysisDocumentationPresentationThe first stage involves ensuring that all files and evidence related to the ongoing investigation have been properly identified. This involves conducting an appropriate examination of the device or network in question as well as interviewing the individuals involved in the network breach. These individuals may have guidance for your investigation or other useful information and may be able to tell you how the breach in question occurred.The second stage is preservation of evidence: maintaining the data in the state in which it is found for later examination and analysis. No one else should be able to access the information in question. After completing these steps, you can move on to copying, examining, and analyzing the evidence.Properly identifying and preserving evidence ensures that it can be analyzed. Accurately identified and preserved evidence can help digital forensic investigators understand how the data damage occurred, what hacking methods were used, and how individuals and organizations can prevent similar cyberattacks in the future. These conclusions must be supported by the evidence, which is confirmed in the documentation step. All evidence is then placed into a presentation that can be given to others.Proper management of data acquisition is critical in any investigation. However, it’s only the first step in properly conducting digital forensics and protecting your clients’ information. At EC-Council, we offer internationally recognized trainings and certifications, such as the Certified Hacking Forensic Investigator (C|HFI) program. By completing this course and earning your C|HFI certification, you’ll learn about a variety of aspects of the field of digital forensics, including digital data acquisition. Start your certification journey with EC-Council today!"
+          "value": "memory_dump",
+          "expanded": "Memory dump",
+          "description": "A memory dump is the process of taking all information content in RAM and writing it to a storage drive."
         }
       ]
     }
