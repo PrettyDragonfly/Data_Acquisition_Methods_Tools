@@ -65,7 +65,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 
 ### Frameworks
 
-- :star:[Autopsy](http://www.sleuthkit.org/autopsy/) - SleuthKit GUI
+- [Autopsy](http://www.sleuthkit.org/autopsy/) - SleuthKit GUI
 - [dff](https://github.com/arxsys/dff) - Forensic framework
 - [dexter](https://github.com/coinbase/dexter) - Dexter is a forensics acquisition framework designed to be extensible and secure
 - [hashlookup-forensic-analyser](https://github.com/hashlookup/hashlookup-forensic-analyser) - A tool to analyse files from a forensic acquisition to find known/unknown hashes from [hashlookup](https://www.circl.lu/services/hashlookup/) API or using a local Bloom filter.
@@ -74,7 +74,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [Laika BOSS](https://github.com/lmco/laikaboss) - Laika is an object scanner and intrusion detection system
 - [PowerForensics](https://github.com/Invoke-IR/PowerForensics) - PowerForensics is a framework for live disk forensic analysis
 - [TAPIR](https://github.com/tap-ir/tapir) - TAPIR (Trustable Artifacts Parser for Incident Response) is a multi-user, client/server, incident response framework
-- :star: [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) - Tools for low level forensic analysis
+- [The Sleuth Kit](https://github.com/sleuthkit/sleuthkit) - Tools for low level forensic analysis
 - [turbinia](https://github.com/google/turbinia) - Turbinia is an open-source framework for deploying, managing, and running forensic workloads on cloud platforms
 - [IPED - Indexador e Processador de Evidências Digitais](https://github.com/sepinf-inc/IPED) - Brazilian Federal Police Tool for Forensic Investigations
 - [Wombat Forensics](https://github.com/pjrinaldi/wombatforensics) - Forensic GUI tool
@@ -118,14 +118,14 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [dc3dd](https://sourceforge.net/projects/dc3dd/) - Improved version of dd
 - [dcfldd](https://dcfldd.sourceforge.net/) - Different improved version of dd (this version has some bugs!, another version is on github [adulau/dcfldd](https://github.com/adulau/dcfldd))
 - [FTK Imager](https://www.exterro.com/ftk-imager) - Free imageing tool for windows
-- :star: [Guymager](https://guymager.sourceforge.io/) - Open source version for disk imageing on linux systems
+- [Guymager](https://guymager.sourceforge.io/) - Open source version for disk imageing on linux systems
 
 ### Carving
 
 - [bstrings](https://github.com/EricZimmerman/bstrings) - Improved strings utility
 - [bulk_extractor](https://github.com/simsong/bulk_extractor) - Extracts information such as email addresses, creditcard numbers and histrograms from disk images
 - [floss](https://github.com/mandiant/flare-floss) - Static analysis tool to automatically deobfuscate strings from malware binaries
-- :star: [photorec](https://www.cgsecurity.org/wiki/PhotoRec) - File carving tool
+- [photorec](https://www.cgsecurity.org/wiki/PhotoRec) - File carving tool
 - [swap_digger](https://github.com/sevagas/swap_digger) - A bash script used to automate Linux swap analysis, automating swap extraction and searches for Linux user credentials, Web form credentials, Web form emails, etc.
 
 ### Memory Forensics
@@ -165,7 +165,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [RecuperaBit](https://github.com/Lazza/RecuperaBit) - Reconstruct and recover NTFS data
 - [python-ntfs](https://github.com/williballenthin/python-ntfs) - NTFS analysis
 
-### OS X Forensics
+## OS X Forensics
 
 - [APFS Fuse](https://github.com/sgan81/apfs-fuse) - A read-only FUSE driver for the new Apple File System
 - [mac_apt (macOS Artifact Parsing Tool)](https://github.com/ydkhatri/mac_apt) - Extracts forensic artifacts from disk images or live machines
@@ -203,7 +203,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 ### Timeline Analysis
 
 - [DFTimewolf](https://github.com/log2timeline/dftimewolf) - Framework for orchestrating forensic collection, processing and data export using GRR and Rekall
-- :star: [plaso](https://github.com/log2timeline/plaso) - Extract timestamps from various files and aggregate them
+- [plaso](https://github.com/log2timeline/plaso) - Extract timestamps from various files and aggregate them
 - [Timeline Explorer](https://binaryforay.blogspot.com/2017/04/introducing-timeline-explorer-v0400.html) - Timeline Analysis tool for CSV and Excel files. Built for SANS FOR508 students
 - [timeliner](https://github.com/airbus-cert/timeliner) - A rewrite of mactime, a bodyfile reader
 - [timesketch](https://github.com/google/timesketch) - Collaborative forensic timeline analysis

@@ -12,11 +12,80 @@
     {
       "value": "memory_acquisition_predicate",
       "expanded": "Memory acquisition",
-      "description": "Methods used when acquiring data from network"
+      "description": "Methods used when acquiring data from memory"
     },
     {
       "value": "network_acquisition_predicate",
-      "expanded": "Network acquisition"
+      "expanded": "Network acquisition",
+      "description": "Methods used when acquiring data from network"
+    },
+    {
+      "value": "distribution",
+      "expanded": "Distribution"
+    },
+    {
+      "value": "frameworks",
+      "expanded": "Frameworks"
+    },
+    {
+      "value": "live_forensics",
+      "expanded": "Live Forensics"
+    },
+    {
+      "value": "ioc_scanner",
+      "expanded": "IOC Scanner"
+    },
+    {
+      "value": "imaging",
+      "expanded": "Imaging"
+    },
+    {
+      "value": "carving",
+      "expanded": "Carving"
+    },
+    {
+      "value": "windows_artifacts",
+      "expanded": "Windows Artifacts"
+    },
+    {
+      "value": "os_x_forensics",
+      "expanded": "OS X Forensics"
+    },
+    {
+      "value": "mobile_forensics",
+      "expanded": "Mobile Forensics"
+    },
+    {
+      "value": "docker_forensics",
+      "expanded": "Docker Forensics"
+    },
+    {
+      "value": "internet_artifacts",
+      "expanded": "Internet Artifacts"
+    },
+    {
+      "value": "timeline_analysis",
+      "expanded": "Timeline Analysis"
+    },
+    {
+      "value": "decryption",
+      "expanded": "Decryption"
+    },
+    {
+      "value": "management",
+      "expanded": "Management"
+    },
+    {
+      "value": "picture_analysis",
+      "expanded": "Picture Analysis"
+    },
+    {
+      "value": "metadata_forensics",
+      "expanded": "Metadata Forensics"
+    },
+    {
+      "value": "steganography",
+      "expanded": "Steganography"
     }
   ],
   "values": [
@@ -167,6 +236,486 @@
           "value": "wireshark",
           "expanded": "WireShark",
           "description": "A network protocol analyzer"
+        }
+      ]
+    },
+    {
+      "predicate": "distribution",
+      "entry": [
+        {
+          "value": "bitscout",
+          "expanded": "bitscout",
+          "description": "LiveCD/LiveUSB for remote forensic acquisition and analysis"
+        },
+        {
+          "value": "remnux",
+          "expanded": "Remnux",
+          "description": "Distro for reverse-engineering and analyzing malicious software"
+        },
+        {
+          "value": "sans_investigative_forensics_toolkit",
+          "expanded": "SANS Investigative Forensics Toolkit ",
+          "description": "Linux distribution for forensic analysis"
+        },
+        {
+          "value": "tsurugi_linux",
+          "expanded": "Tsurugi Linux",
+          "description": "Linux distribution for forensic analysis"
+        },
+        {
+          "value": "winfe",
+          "expanded": "WinFE",
+          "description": "Windows Forensics enviroment"
+        }
+      ]
+    },
+    {
+      "predicate": "frameworks",
+      "entry": [
+        {
+          "value": "autopsy",
+          "expanded": "Autopsy",
+          "description": "SleuthKit GUI"
+        },
+        {
+          "value": "dff",
+          "expanded": "dff",
+          "description": "Forensic framework"
+        },
+        {
+          "value": "dexter",
+          "expanded": "dexter",
+          "description": "Dexter is a forensics acquisition framework designed to be extensible and secure"
+        },
+        {
+          "value": "hashlookup-forensic-analyser",
+          "expanded": "hashlookup-forensic-analyser",
+          "description": "A tool to analyse files from a forensic acquisition to find known/unknown hashes from [hashlookup(https://www.circl.lu/services/hashlookup/) API or using a local Bloom filter."
+        },
+        {
+          "value": "intelmq",
+          "expanded": "IntelMQ",
+          "description": "IntelMQ collects and processes security feeds"
+        },
+        {
+          "value": "kuiper",
+          "expanded": "Kuiper",
+          "description": "Digital Investigation Platform"
+        },
+        {
+          "value": "laika_boss",
+          "expanded": "Laika BOSS",
+          "description": "Laika is an object scanner and intrusion detection system"
+        },
+        {
+          "value": "powerforensics",
+          "expanded": "PowerForensics",
+          "description": "PowerForensics is a framework for live disk forensic analysis"
+        },
+        {
+          "value": "tapir",
+          "expanded": "TAPIR",
+          "description": "TAPIR (Trustable Artifacts Parser for Incident Response) is a multi-user, client/server, incident response framework"
+        },
+        {
+          "value": "the_sleuth_kit",
+          "expanded": "The Sleuth Kit",
+          "description": "Tools for low level forensic analysis"
+        },
+        {
+          "value": "turbinia",
+          "expanded": "turbinia",
+          "description": "Turbinia is an open-source framework for deploying, managing, and running forensic workloads on cloud platforms"
+        },
+        {
+          "value": "iped",
+          "expanded": "IPED",
+          "description": "Indexador e Processador de Evidências Digitais(https://github.com/sepinf-inc/IPED)"
+        },
+        {
+          "value": "wombat_forensics",
+          "expanded": "Wombat Forensics",
+          "description": "Forensic GUI tool"
+        }
+      ]
+    },
+    {
+      "predicate": "live_forensics",
+      "entry": [
+        {
+          "value": "grr",
+          "expanded": "grr",
+          "description": "GRR Rapid Response: remote live forensics for incident response"
+        },
+        {
+          "value": "linux_expl0rer",
+          "expanded": "Linux Expl0rer",
+          "description": "Easy-to-use live forensics toolbox for Linux endpoints written in Python & Flask"
+        },
+        {
+          "value": "mig",
+          "expanded": "mig",
+          "description": "Distributed & real time digital forensics at the speed of the cloud"
+        },
+        {
+          "value": "osquery",
+          "expanded": "osquery",
+          "description": "SQL powered operating system analytics"
+        },
+        {
+          "value": "pofr",
+          "expanded": "POFR",
+          "description": "The Penguin OS Flight Recorder collects, stores and organizes for further analysis process execution, file access and network/socket endpoint data from the Linux Operating System."
+        },
+        {
+          "value": "uac",
+          "expanded": "UAC",
+          "description": "UAC (Unix-like Artifacts Collector) is a Live Response collection script for Incident Response that makes use of native binaries and tools to automate the collection of AIX, Android, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD and Solaris systems artifacts."
+        }
+      ]
+    },
+    {
+      "predicate": "ioc_scanner",
+      "entry": [
+        {
+          "value": "fastfinder",
+          "expanded": "Fastfinder",
+          "description": "Fast customisable cross-platform suspicious file finder. Supports md5/sha1/sha256 hashes, literal/wildcard strings, regular expressions and YARA rules"
+        },
+        {
+          "value": "fenrir",
+          "expanded": "Fenrir",
+          "description": "Simple Bash IOC Scanner"
+        },
+        {
+          "value": "loki",
+          "expanded": "Loki",
+          "description": "Simple IOC and Incident Response Scanner"
+        },
+        {
+          "value": "redline",
+          "expanded": "Redline",
+          "description": "Free endpoint security tool from FireEye"
+        },
+        {
+          "value": "thor_lite",
+          "expanded": "THOR Lite",
+          "description": "Free IOC and YARA Scanner"
+        },
+        {
+          "value": "recon",
+          "expanded": "recon",
+          "description": "Performance oriented file finder with support for SQL querying, index and analyze file metadata with support for YARA."
+        }
+      ]
+    },
+    {
+      "predicate": "imaging",
+      "entry": [
+        {
+          "value": "dc3dd",
+          "expanded": "dc3dd",
+          "description": "Improved version of dd"
+        },
+        {
+          "value": "dcfldd",
+          "expanded": "dcfldd",
+          "description": "Different improved version of dd (this version has some bugs!, another version is on github [adulau/dcfldd(https://github.com/adulau/dcfldd))"
+        },
+        {
+          "value": "ftk_imager",
+          "expanded": "FTK Imager",
+          "description": "Free imageing tool for windows"
+        },
+        {
+          "value": "guymager",
+          "expanded": "Guymager",
+          "description": "Open source version for disk imageing on linux systems"
+        }
+      ]
+    },
+    {
+      "predicate": "carving",
+      "entry": [
+        {
+          "value": "bstrings",
+          "expanded": "bstrings",
+          "description": "Improved strings utility"
+        },
+        {
+          "value": "bulk_extractor",
+          "expanded": "bulk_extractor",
+          "description": "Extracts information such as email addresses, creditcard numbers and histrograms from disk images"
+        },
+        {
+          "value": "floss",
+          "expanded": "floss",
+          "description": "Static analysis tool to automatically deobfuscate strings from malware binaries"
+        },
+        {
+          "value": "photorec",
+          "expanded": "photorec",
+          "description": "File carving tool"
+        },
+        {
+          "value": "swap_digger",
+          "expanded": "swap_digger",
+          "description": "A bash script used to automate Linux swap analysis, automating swap extraction and searches for Linux user credentials, Web form credentials, Web form emails, etc."
+        }
+      ]
+    },
+    {
+      "predicate": "windows_artifacts",
+      "entry": [
+        {
+          "value": "beagle",
+          "expanded": "Beagle",
+          "description": " Transform data sources and logs into graphs"
+        },
+        {
+          "value": "fred",
+          "expanded": "FRED",
+          "description": "Cross-platform microsoft registry hive editor"
+        },
+        {
+          "value": "hayabusa",
+          "expanded": "Hayabusa",
+          "description": "A a sigma-based threat hunting and fast forensics timeline generator for Windows event logs."
+        },
+        {
+          "value": "lastactivityview",
+          "expanded": "LastActivityView",
+          "description": "LastActivityView by Nirsoftis a tool for Windows operating system that collects information from various sources on a running system, and displays a log of actions made by the user and events occurred on this computer. "
+        },
+        {
+          "value": "logontracer",
+          "expanded": "LogonTracer",
+          "description": "Investigate malicious Windows logon by visualizing and analyzing Windows event log"
+        },
+        {
+          "value": "python-evt",
+          "expanded": "python-evt",
+          "description": "Pure Python parser for classic Windows Event Log files (.evt)"
+        },
+        {
+          "value": "regripper3.0",
+          "expanded": "RegRipper3.0",
+          "description": "RegRipper is an open source Perl tool for parsing the Registry and presenting it for analysis"
+        },
+        {
+          "value": "regrippy",
+          "expanded": "RegRippy",
+          "description": "A framework for reading and extracting useful forensics data from Windows registry hives"
+        }
+      ]
+    },
+    {
+      "predicate": "mobile_forensics",
+      "entry": [
+        {
+          "value": "andriller",
+          "expanded": "Andriller",
+          "description": "A software utility with a collection of forensic tools for smartphones"
+        },
+        {
+          "value": "aleapp",
+          "expanded": "ALEAPP",
+          "description": "An Android Logs Events and Protobuf Parser"
+        },
+        {
+          "value": "artex",
+          "expanded": "ArtEx",
+          "description": "Artifact Examiner for iOS Full File System extractions"
+        },
+        {
+          "value": "ileapp",
+          "expanded": "iLEAPP",
+          "description": "An iOS Logs, Events, And Plists Parser"
+        },
+        {
+          "value": "ios_frequent_locations_dumper",
+          "expanded": "iOS Frequent Locations Dumper",
+          "description": "Dump the contents of the StateModel#.archive files located in /private/var/mobile/Library/Caches/com.apple.routined/"
+        },
+        {
+          "value": "meat",
+          "expanded": "MEAT",
+          "description": "Perform different kinds of acquisitions on iOS devices"
+        },
+        {
+          "value": "mobsf",
+          "expanded": "MobSF",
+          "description": "An automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis."
+        },
+        {
+          "value": "openbackupextractor",
+          "expanded": "OpenBackupExtractor",
+          "description": "An app for extracting data from iPhone and iPad backups."
+        }
+      ]
+    },
+    {
+      "predicate": "docker_forensics",
+      "entry": [
+        {
+          "value": "dof",
+          "expanded": "dof ",
+          "description": "Extracts and interprets forensic artifacts from disk images of Docker Host systems"
+        }
+      ]
+    },
+    {
+      "predicate": "internet_artifacts",
+      "entry": [
+        {
+          "value": "chromecacheview",
+          "expanded": "ChromeCacheView",
+          "description": "A small utility that reads the cache folder of Google Chrome Web browser, and displays the list of all files currently stored in the cache"
+        },
+        {
+          "value": "chrome-url-dumper",
+          "expanded": "chrome-url-dumper",
+          "description": "Dump all local stored infromation collected by Chrome"
+        },
+        {
+          "value": "hindsight",
+          "expanded": "hindsight",
+          "description": "Internet history forensics for Google Chrome/Chromium"
+        },
+        {
+          "value": "ie10analyzer",
+          "expanded": "IE10Analyzer",
+          "description": "This tool can parse normal records and recover deleted records in WebCacheV01.dat."
+        },
+        {
+          "value": "unfurl",
+          "expanded": "unfurl",
+          "description": "Extract and visualize data from URLs"
+        },
+        {
+          "value": "winsearchdbanalyzer",
+          "expanded": "WinSearchDBAnalyzer",
+          "description": "This tool can parse normal records and recover deleted records in Windows.edb."
+        }
+      ]
+    },
+    {
+      "predicate": "timeline_analysis",
+      "entry": [
+        {
+          "value": "dftimewolf",
+          "expanded": "DFTimewolf",
+          "description": "Framework for orchestrating forensic collection, processing and data export using GRR and Rekall"
+        },
+        {
+          "value": "plaso",
+          "expanded": "plaso",
+          "description": "Extract timestamps from various files and aggregate them"
+        },
+        {
+          "value": "timeline_explorer",
+          "expanded": "Timeline Explorer",
+          "description": "Timeline Analysis tool for CSV and Excel files. Built for SANS FOR508 students"
+        },
+        {
+          "value": "timeliner",
+          "expanded": "timeliner",
+          "description": "A rewrite of mactime, a bodyfile reader"
+        },
+        {
+          "value": "timesketch",
+          "expanded": "timesketch",
+          "description": "Collaborative forensic timeline analysis"
+        }
+      ]
+    },
+    {
+      "predicate": "decryption",
+      "entry": [
+        {
+          "value": "hashcat",
+          "expanded": "hashcat",
+          "description": "Fast password cracker with GPU support"
+        },
+        {
+          "value": "john_the_ripper",
+          "expanded": "John the Ripper",
+          "description": "Password cracker"
+        }
+      ]
+    },
+    {
+      "predicate": "management",
+      "entry": [
+        {
+          "value": "dfirtrack",
+          "expanded": "dfirtrack",
+          "description": "Digital Forensics and Incident Response Tracking application, track systems"
+        },
+        {
+          "value": "incidents",
+          "expanded": "Incidents",
+          "description": "Web application for organizing non-trivial security investigations. Built on the idea that incidents are trees of tickets, where some tickets are leads"
+        }
+      ]
+    },
+    {
+      "predicate": "picture_analysis",
+      "entry": [
+        {
+          "value": "ghiro",
+          "expanded": "Ghiro",
+          "description": "A fully automated tool designed to run forensics analysis over a massive amount of images"
+        },
+        {
+          "value": "sherloq",
+          "expanded": "sherloq",
+          "description": "An open-source digital photographic image forensic toolset"
+        }
+      ]
+    },
+    {
+      "predicate": "metadata_forensics",
+      "entry": [
+        {
+          "value": "foca",
+          "expanded": "FOCA",
+          "description": "FOCA is a tool used mainly to find metadata and hidden information in the documents"
+        }
+      ]
+    },
+    {
+      "predicate": "steganography",
+      "entry": [
+        {
+          "value": "steghide",
+          "expanded": "Steghide",
+          "description": "is a steganography program that hides data in various kinds of image and audio files"
+        },
+        {
+          "value": "wavsteg",
+          "expanded": "Wavsteg",
+          "description": "is a steganography program that hides data in various kinds of image and audio files"
+        },
+        {
+          "value": "zsteg",
+          "expanded": "Zsteg",
+          "description": "A steganographic coder for WAV files"
+        },
+        {
+          "value": "forensic_challenges",
+          "expanded": "Forensic challenges",
+          "description": "Mindmap of forensic challenges"
+        },
+        {
+          "value": "openlearn",
+          "expanded": "OpenLearn",
+          "description": "Digital forensic course"
+        },
+        {
+          "value": "training_material",
+          "expanded": "Training material",
+          "description": "Online training material by European Union Agency for Network and Information Security for different topics (e.g. [Digital forensics(https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material/technical-operational#digital_forensics), [Network forensics(https://www.enisa.europa.eu/topics/training-and-exercises/trainings-for-cybersecurity-specialists/online-training-material/technical-operational#network_forensics))"
         }
       ]
     }
