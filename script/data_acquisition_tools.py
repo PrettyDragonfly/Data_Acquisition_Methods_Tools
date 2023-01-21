@@ -9,26 +9,22 @@ lines = tools.readlines()
 tools.close()
 
 tools_categories = {}
-tools_categories["Distributions"] = {}
-tools_categories["Live Forensics"] = {}
-tools_categories["IOC Scanner"] = {}
-tools_categories["Acquisition"] = {}
-tools_categories["Imaging"] = {}
-tools_categories["Carving"] = {}
-tools_categories["Memory Forensics"] = {}
-tools_categories["Network Forensics"] = {}
-tools_categories["Windows Artifacts"] = {}
-tools_categories["OS X Forensics"] = {}
-tools_categories["Mobile Forensics"] = {}
-tools_categories["Docker Forensics"] = {}
-tools_categories["Internet Artifacts"] = {}
-tools_categories["Timeline Analysis"] = {}
-tools_categories["Disk Image Handling"] = {}
-tools_categories["Decryption"] = {}
-tools_categories["Management"] = {}
-tools_categories["Picture Analysis"] = {}
-tools_categories["Metadata Forensics"] = {}
-tools_categories["Steganography"] = {}
+ok = False
+for line in lines:
+    if not ok:
+        if line.__contains__("- [Tools](#tools)"):
+            ok = True
+    else:
+        if line.__contains__("- [Learn Forensics](#learn-forensics)"):
+            break
+        else:
+            temp = line
+            temp = temp.replace('- [', '')
+            temp = temp.replace(']', '')
+            temp = temp.replace('\n', '')
+            temp = temp.strip()
+            t = temp.split("(")
+            tools_categories[t[0]] = {}
 
 # ------------
 # SCRAP DATA |
