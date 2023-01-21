@@ -9,6 +9,10 @@
       "expanded": "Distributions"
     },
     {
+      "value": "Frameworks",
+      "expanded": "Frameworks"
+    },
+    {
       "value": "Live_Forensics",
       "expanded": "Live Forensics"
     },
@@ -63,9 +67,8 @@
       "expanded": "Timeline Analysis"
     },
     {
-      "value": "Disk_Image_Handling",
-      "expanded": "Disk Image Handling",
-      "description": "Methods used when acquiring data from disk"
+      "value": "Disk_image_handling",
+      "expanded": "Disk image handling"
     },
     {
       "value": "Decryption",
@@ -116,6 +119,76 @@
           "value": "winfe",
           "expanded": "WinFE",
           "description": "Windows Forensics enviroment"
+        }
+      ]
+    },
+    {
+      "predicate": "Frameworks",
+      "entry": [
+        {
+          "value": "autopsy",
+          "expanded": "Autopsy",
+          "description": "SleuthKit GUI"
+        },
+        {
+          "value": "dff",
+          "expanded": "dff",
+          "description": "Forensic framework"
+        },
+        {
+          "value": "dexter",
+          "expanded": "dexter",
+          "description": "Dexter is a forensics acquisition framework designed to be extensible and secure"
+        },
+        {
+          "value": "hashlookup-forensic-analyser",
+          "expanded": "hashlookup-forensic-analyser",
+          "description": "A tool to analyse files from a forensic acquisition to find known/unknown hashes from [hashlookup(https://www.circl.lu/services/hashlookup/) API or using a local Bloom filter."
+        },
+        {
+          "value": "intelmq",
+          "expanded": "IntelMQ",
+          "description": "IntelMQ collects and processes security feeds"
+        },
+        {
+          "value": "kuiper",
+          "expanded": "Kuiper",
+          "description": "Digital Investigation Platform"
+        },
+        {
+          "value": "laika_boss",
+          "expanded": "Laika BOSS",
+          "description": "Laika is an object scanner and intrusion detection system"
+        },
+        {
+          "value": "powerforensics",
+          "expanded": "PowerForensics",
+          "description": "PowerForensics is a framework for live disk forensic analysis"
+        },
+        {
+          "value": "tapir",
+          "expanded": "TAPIR",
+          "description": "TAPIR (Trustable Artifacts Parser for Incident Response) is a multi-user, client/server, incident response framework"
+        },
+        {
+          "value": "the_sleuth_kit",
+          "expanded": "The Sleuth Kit",
+          "description": "Tools for low level forensic analysis"
+        },
+        {
+          "value": "turbinia",
+          "expanded": "turbinia",
+          "description": "Turbinia is an open-source framework for deploying, managing, and running forensic workloads on cloud platforms"
+        },
+        {
+          "value": "iped",
+          "expanded": "IPED",
+          "description": "Indexador e Processador de Evidências Digitais(https://github.com/sepinf-inc/IPED)"
+        },
+        {
+          "value": "wombat_forensics",
+          "expanded": "Wombat Forensics",
+          "description": "Forensic GUI tool"
         }
       ]
     },
@@ -411,6 +484,26 @@
           "value": "regrippy",
           "expanded": "RegRippy",
           "description": "A framework for reading and extracting useful forensics data from Windows registry hives"
+        },
+        {
+          "value": "apfs_fuse",
+          "expanded": "APFS Fuse",
+          "description": "A read-only FUSE driver for the new Apple File System"
+        },
+        {
+          "value": "mac_apt",
+          "expanded": "mac_apt ",
+          "description": "Extracts forensic artifacts from disk images or live machines"
+        },
+        {
+          "value": "maclocationsscraper",
+          "expanded": "MacLocationsScraper",
+          "description": "Dump the contents of the location database files on iOS and macOS"
+        },
+        {
+          "value": "macmruparser",
+          "expanded": "macMRUParser",
+          "description": "Python script to parse the Most Recently Used (MRU) plist files on macOS into a more human friendly format"
         }
       ]
     },
@@ -531,6 +624,36 @@
           "value": "timesketch",
           "expanded": "timesketch",
           "description": "Collaborative forensic timeline analysis"
+        }
+      ]
+    },
+    {
+      "predicate": "Disk_image_handling",
+      "entry": [
+        {
+          "value": "disk_arbitrator",
+          "expanded": "Disk Arbitrator",
+          "description": "A Mac OS X forensic utility designed to help the user ensure correct forensic procedures are followed during imaging of a disk device"
+        },
+        {
+          "value": "imagemounter",
+          "expanded": "imagemounter",
+          "description": "Command line utility and Python package to ease the (un)mounting of forensic disk images"
+        },
+        {
+          "value": "libewf",
+          "expanded": "libewf",
+          "description": "Libewf is a library and some tools to access the Expert Witness Compression Format (EWF, E01)"
+        },
+        {
+          "value": "pancakeviewer",
+          "expanded": "PancakeViewer",
+          "description": "Disk image viewer based in dfvfs, similar to the FTK Imager viewer"
+        },
+        {
+          "value": "xmount",
+          "expanded": "xmount",
+          "description": "Convert between different disk image formats"
         }
       ]
     },
