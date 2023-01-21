@@ -5,118 +5,193 @@
   "expanded": "Data acquisition tools",
   "predicates": [
     {
-      "value": "disk_acquisition",
-      "expanded": "Disk acquisition",
-      "description": "Methods used when acquiring data from disk"
+      "value": "Distributions",
+      "expanded": "Distributions"
     },
     {
-      "value": "memory_acquisition_predicate",
-      "expanded": "Memory acquisition",
-      "description": "Methods used when acquiring data from memory"
-    },
-    {
-      "value": "network_acquisition_predicate",
-      "expanded": "Network acquisition",
-      "description": "Methods used when acquiring data from network"
-    },
-    {
-      "value": "distribution",
-      "expanded": "Distribution"
-    },
-    {
-      "value": "frameworks",
-      "expanded": "Frameworks"
-    },
-    {
-      "value": "live_forensics",
+      "value": "Live_Forensics",
       "expanded": "Live Forensics"
     },
     {
-      "value": "ioc_scanner",
+      "value": "IOC_Scanner",
       "expanded": "IOC Scanner"
     },
     {
-      "value": "imaging",
+      "value": "Acquisition",
+      "expanded": "Acquisition"
+    },
+    {
+      "value": "Imaging",
       "expanded": "Imaging"
     },
     {
-      "value": "carving",
+      "value": "Carving",
       "expanded": "Carving"
     },
     {
-      "value": "windows_artifacts",
+      "value": "Memory_Forensics",
+      "expanded": "Memory Forensics",
+      "description": "Methods used when acquiring data from memory"
+    },
+    {
+      "value": "Network_Forensics",
+      "expanded": "Network Forensics",
+      "description": "Methods used when acquiring data from network"
+    },
+    {
+      "value": "Windows_Artifacts",
       "expanded": "Windows Artifacts"
     },
     {
-      "value": "os_x_forensics",
+      "value": "OS_X_Forensics",
       "expanded": "OS X Forensics"
     },
     {
-      "value": "mobile_forensics",
+      "value": "Mobile_Forensics",
       "expanded": "Mobile Forensics"
     },
     {
-      "value": "docker_forensics",
+      "value": "Docker_Forensics",
       "expanded": "Docker Forensics"
     },
     {
-      "value": "internet_artifacts",
+      "value": "Internet_Artifacts",
       "expanded": "Internet Artifacts"
     },
     {
-      "value": "timeline_analysis",
+      "value": "Timeline_Analysis",
       "expanded": "Timeline Analysis"
     },
     {
-      "value": "decryption",
+      "value": "Disk_Image_Handling",
+      "expanded": "Disk Image Handling",
+      "description": "Methods used when acquiring data from disk"
+    },
+    {
+      "value": "Decryption",
       "expanded": "Decryption"
     },
     {
-      "value": "management",
+      "value": "Management",
       "expanded": "Management"
     },
     {
-      "value": "picture_analysis",
+      "value": "Picture_Analysis",
       "expanded": "Picture Analysis"
     },
     {
-      "value": "metadata_forensics",
+      "value": "Metadata_Forensics",
       "expanded": "Metadata Forensics"
     },
     {
-      "value": "steganography",
+      "value": "Steganography",
       "expanded": "Steganography"
     }
   ],
   "values": [
     {
-      "predicate": "disk_acquisition",
+      "predicate": "Distributions",
       "entry": [
         {
-          "value": "disk_arbitrator",
-          "expanded": "Disk Arbitrator",
-          "description": "A Mac OS X forensic utility designed to help the user ensure correct forensic procedures are followed during imaging of a disk device"
+          "value": "bitscout",
+          "expanded": "bitscout",
+          "description": "LiveCD/LiveUSB for remote forensic acquisition and analysis"
         },
         {
-          "value": "imagemounter",
-          "expanded": "imagemounter",
-          "description": "Command line utility and Python package to ease the (un)mounting of forensic disk images"
+          "value": "remnux",
+          "expanded": "Remnux",
+          "description": "Distro for reverse-engineering and analyzing malicious software"
         },
         {
-          "value": "libewf",
-          "expanded": "libewf",
-          "description": "Libewf is a library and some tools to access the Expert Witness Compression Format (EWF, E01)"
+          "value": "sans_investigative_forensics_toolkit",
+          "expanded": "SANS Investigative Forensics Toolkit ",
+          "description": "Linux distribution for forensic analysis"
         },
         {
-          "value": "pancakeviewer",
-          "expanded": "PancakeViewer",
-          "description": "Disk image viewer based in dfvfs, similar to the FTK Imager viewer"
+          "value": "tsurugi_linux",
+          "expanded": "Tsurugi Linux",
+          "description": "Linux distribution for forensic analysis"
         },
         {
-          "value": "xmount",
-          "expanded": "xmount",
-          "description": "Convert between different disk image formats"
+          "value": "winfe",
+          "expanded": "WinFE",
+          "description": "Windows Forensics enviroment"
+        }
+      ]
+    },
+    {
+      "predicate": "Live_Forensics",
+      "entry": [
+        {
+          "value": "grr",
+          "expanded": "grr",
+          "description": "GRR Rapid Response: remote live forensics for incident response"
         },
+        {
+          "value": "linux_expl0rer",
+          "expanded": "Linux Expl0rer",
+          "description": "Easy-to-use live forensics toolbox for Linux endpoints written in Python & Flask"
+        },
+        {
+          "value": "mig",
+          "expanded": "mig",
+          "description": "Distributed & real time digital forensics at the speed of the cloud"
+        },
+        {
+          "value": "osquery",
+          "expanded": "osquery",
+          "description": "SQL powered operating system analytics"
+        },
+        {
+          "value": "pofr",
+          "expanded": "POFR",
+          "description": "The Penguin OS Flight Recorder collects, stores and organizes for further analysis process execution, file access and network/socket endpoint data from the Linux Operating System."
+        },
+        {
+          "value": "uac",
+          "expanded": "UAC",
+          "description": "UAC (Unix-like Artifacts Collector) is a Live Response collection script for Incident Response that makes use of native binaries and tools to automate the collection of AIX, Android, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD and Solaris systems artifacts."
+        }
+      ]
+    },
+    {
+      "predicate": "IOC_Scanner",
+      "entry": [
+        {
+          "value": "fastfinder",
+          "expanded": "Fastfinder",
+          "description": "Fast customisable cross-platform suspicious file finder. Supports md5/sha1/sha256 hashes, literal/wildcard strings, regular expressions and YARA rules"
+        },
+        {
+          "value": "fenrir",
+          "expanded": "Fenrir",
+          "description": "Simple Bash IOC Scanner"
+        },
+        {
+          "value": "loki",
+          "expanded": "Loki",
+          "description": "Simple IOC and Incident Response Scanner"
+        },
+        {
+          "value": "redline",
+          "expanded": "Redline",
+          "description": "Free endpoint security tool from FireEye"
+        },
+        {
+          "value": "thor_lite",
+          "expanded": "THOR Lite",
+          "description": "Free IOC and YARA Scanner"
+        },
+        {
+          "value": "recon",
+          "expanded": "recon",
+          "description": "Performance oriented file finder with support for SQL querying, index and analyze file metadata with support for YARA."
+        }
+      ]
+    },
+    {
+      "predicate": "Acquisition",
+      "entry": [
         {
           "value": "artifactcollector",
           "expanded": "artifactcollector",
@@ -185,7 +260,62 @@
       ]
     },
     {
-      "predicate": "memory_acquisition_predicate",
+      "predicate": "Imaging",
+      "entry": [
+        {
+          "value": "dc3dd",
+          "expanded": "dc3dd",
+          "description": "Improved version of dd"
+        },
+        {
+          "value": "dcfldd",
+          "expanded": "dcfldd",
+          "description": "Different improved version of dd (this version has some bugs!, another version is on github [adulau/dcfldd(https://github.com/adulau/dcfldd))"
+        },
+        {
+          "value": "ftk_imager",
+          "expanded": "FTK Imager",
+          "description": "Free imageing tool for windows"
+        },
+        {
+          "value": "guymager",
+          "expanded": "Guymager",
+          "description": "Open source version for disk imageing on linux systems"
+        }
+      ]
+    },
+    {
+      "predicate": "Carving",
+      "entry": [
+        {
+          "value": "bstrings",
+          "expanded": "bstrings",
+          "description": "Improved strings utility"
+        },
+        {
+          "value": "bulk_extractor",
+          "expanded": "bulk_extractor",
+          "description": "Extracts information such as email addresses, creditcard numbers and histrograms from disk images"
+        },
+        {
+          "value": "floss",
+          "expanded": "floss",
+          "description": "Static analysis tool to automatically deobfuscate strings from malware binaries"
+        },
+        {
+          "value": "photorec",
+          "expanded": "photorec",
+          "description": "File carving tool"
+        },
+        {
+          "value": "swap_digger",
+          "expanded": "swap_digger",
+          "description": "A bash script used to automate Linux swap analysis, automating swap extraction and searches for Linux user credentials, Web form credentials, Web form emails, etc."
+        }
+      ]
+    },
+    {
+      "predicate": "Memory_Forensics",
       "entry": [
         {
           "value": "invtero.net",
@@ -220,7 +350,7 @@
       ]
     },
     {
-      "predicate": "network_acquisition_predicate",
+      "predicate": "Network_Forensics",
       "entry": [
         {
           "value": "kismet",
@@ -240,232 +370,7 @@
       ]
     },
     {
-      "predicate": "distribution",
-      "entry": [
-        {
-          "value": "bitscout",
-          "expanded": "bitscout",
-          "description": "LiveCD/LiveUSB for remote forensic acquisition and analysis"
-        },
-        {
-          "value": "remnux",
-          "expanded": "Remnux",
-          "description": "Distro for reverse-engineering and analyzing malicious software"
-        },
-        {
-          "value": "sans_investigative_forensics_toolkit",
-          "expanded": "SANS Investigative Forensics Toolkit ",
-          "description": "Linux distribution for forensic analysis"
-        },
-        {
-          "value": "tsurugi_linux",
-          "expanded": "Tsurugi Linux",
-          "description": "Linux distribution for forensic analysis"
-        },
-        {
-          "value": "winfe",
-          "expanded": "WinFE",
-          "description": "Windows Forensics enviroment"
-        }
-      ]
-    },
-    {
-      "predicate": "frameworks",
-      "entry": [
-        {
-          "value": "autopsy",
-          "expanded": "Autopsy",
-          "description": "SleuthKit GUI"
-        },
-        {
-          "value": "dff",
-          "expanded": "dff",
-          "description": "Forensic framework"
-        },
-        {
-          "value": "dexter",
-          "expanded": "dexter",
-          "description": "Dexter is a forensics acquisition framework designed to be extensible and secure"
-        },
-        {
-          "value": "hashlookup-forensic-analyser",
-          "expanded": "hashlookup-forensic-analyser",
-          "description": "A tool to analyse files from a forensic acquisition to find known/unknown hashes from [hashlookup(https://www.circl.lu/services/hashlookup/) API or using a local Bloom filter."
-        },
-        {
-          "value": "intelmq",
-          "expanded": "IntelMQ",
-          "description": "IntelMQ collects and processes security feeds"
-        },
-        {
-          "value": "kuiper",
-          "expanded": "Kuiper",
-          "description": "Digital Investigation Platform"
-        },
-        {
-          "value": "laika_boss",
-          "expanded": "Laika BOSS",
-          "description": "Laika is an object scanner and intrusion detection system"
-        },
-        {
-          "value": "powerforensics",
-          "expanded": "PowerForensics",
-          "description": "PowerForensics is a framework for live disk forensic analysis"
-        },
-        {
-          "value": "tapir",
-          "expanded": "TAPIR",
-          "description": "TAPIR (Trustable Artifacts Parser for Incident Response) is a multi-user, client/server, incident response framework"
-        },
-        {
-          "value": "the_sleuth_kit",
-          "expanded": "The Sleuth Kit",
-          "description": "Tools for low level forensic analysis"
-        },
-        {
-          "value": "turbinia",
-          "expanded": "turbinia",
-          "description": "Turbinia is an open-source framework for deploying, managing, and running forensic workloads on cloud platforms"
-        },
-        {
-          "value": "iped",
-          "expanded": "IPED",
-          "description": "Indexador e Processador de Evidências Digitais(https://github.com/sepinf-inc/IPED)"
-        },
-        {
-          "value": "wombat_forensics",
-          "expanded": "Wombat Forensics",
-          "description": "Forensic GUI tool"
-        }
-      ]
-    },
-    {
-      "predicate": "live_forensics",
-      "entry": [
-        {
-          "value": "grr",
-          "expanded": "grr",
-          "description": "GRR Rapid Response: remote live forensics for incident response"
-        },
-        {
-          "value": "linux_expl0rer",
-          "expanded": "Linux Expl0rer",
-          "description": "Easy-to-use live forensics toolbox for Linux endpoints written in Python & Flask"
-        },
-        {
-          "value": "mig",
-          "expanded": "mig",
-          "description": "Distributed & real time digital forensics at the speed of the cloud"
-        },
-        {
-          "value": "osquery",
-          "expanded": "osquery",
-          "description": "SQL powered operating system analytics"
-        },
-        {
-          "value": "pofr",
-          "expanded": "POFR",
-          "description": "The Penguin OS Flight Recorder collects, stores and organizes for further analysis process execution, file access and network/socket endpoint data from the Linux Operating System."
-        },
-        {
-          "value": "uac",
-          "expanded": "UAC",
-          "description": "UAC (Unix-like Artifacts Collector) is a Live Response collection script for Incident Response that makes use of native binaries and tools to automate the collection of AIX, Android, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD and Solaris systems artifacts."
-        }
-      ]
-    },
-    {
-      "predicate": "ioc_scanner",
-      "entry": [
-        {
-          "value": "fastfinder",
-          "expanded": "Fastfinder",
-          "description": "Fast customisable cross-platform suspicious file finder. Supports md5/sha1/sha256 hashes, literal/wildcard strings, regular expressions and YARA rules"
-        },
-        {
-          "value": "fenrir",
-          "expanded": "Fenrir",
-          "description": "Simple Bash IOC Scanner"
-        },
-        {
-          "value": "loki",
-          "expanded": "Loki",
-          "description": "Simple IOC and Incident Response Scanner"
-        },
-        {
-          "value": "redline",
-          "expanded": "Redline",
-          "description": "Free endpoint security tool from FireEye"
-        },
-        {
-          "value": "thor_lite",
-          "expanded": "THOR Lite",
-          "description": "Free IOC and YARA Scanner"
-        },
-        {
-          "value": "recon",
-          "expanded": "recon",
-          "description": "Performance oriented file finder with support for SQL querying, index and analyze file metadata with support for YARA."
-        }
-      ]
-    },
-    {
-      "predicate": "imaging",
-      "entry": [
-        {
-          "value": "dc3dd",
-          "expanded": "dc3dd",
-          "description": "Improved version of dd"
-        },
-        {
-          "value": "dcfldd",
-          "expanded": "dcfldd",
-          "description": "Different improved version of dd (this version has some bugs!, another version is on github [adulau/dcfldd(https://github.com/adulau/dcfldd))"
-        },
-        {
-          "value": "ftk_imager",
-          "expanded": "FTK Imager",
-          "description": "Free imageing tool for windows"
-        },
-        {
-          "value": "guymager",
-          "expanded": "Guymager",
-          "description": "Open source version for disk imageing on linux systems"
-        }
-      ]
-    },
-    {
-      "predicate": "carving",
-      "entry": [
-        {
-          "value": "bstrings",
-          "expanded": "bstrings",
-          "description": "Improved strings utility"
-        },
-        {
-          "value": "bulk_extractor",
-          "expanded": "bulk_extractor",
-          "description": "Extracts information such as email addresses, creditcard numbers and histrograms from disk images"
-        },
-        {
-          "value": "floss",
-          "expanded": "floss",
-          "description": "Static analysis tool to automatically deobfuscate strings from malware binaries"
-        },
-        {
-          "value": "photorec",
-          "expanded": "photorec",
-          "description": "File carving tool"
-        },
-        {
-          "value": "swap_digger",
-          "expanded": "swap_digger",
-          "description": "A bash script used to automate Linux swap analysis, automating swap extraction and searches for Linux user credentials, Web form credentials, Web form emails, etc."
-        }
-      ]
-    },
-    {
-      "predicate": "windows_artifacts",
+      "predicate": "Windows_Artifacts",
       "entry": [
         {
           "value": "beagle",
@@ -510,7 +415,7 @@
       ]
     },
     {
-      "predicate": "mobile_forensics",
+      "predicate": "Mobile_Forensics",
       "entry": [
         {
           "value": "andriller",
@@ -555,7 +460,7 @@
       ]
     },
     {
-      "predicate": "docker_forensics",
+      "predicate": "Docker_Forensics",
       "entry": [
         {
           "value": "dof",
@@ -565,7 +470,7 @@
       ]
     },
     {
-      "predicate": "internet_artifacts",
+      "predicate": "Internet_Artifacts",
       "entry": [
         {
           "value": "chromecacheview",
@@ -600,7 +505,7 @@
       ]
     },
     {
-      "predicate": "timeline_analysis",
+      "predicate": "Timeline_Analysis",
       "entry": [
         {
           "value": "dftimewolf",
@@ -630,7 +535,7 @@
       ]
     },
     {
-      "predicate": "decryption",
+      "predicate": "Decryption",
       "entry": [
         {
           "value": "hashcat",
@@ -645,7 +550,7 @@
       ]
     },
     {
-      "predicate": "management",
+      "predicate": "Management",
       "entry": [
         {
           "value": "dfirtrack",
@@ -660,7 +565,7 @@
       ]
     },
     {
-      "predicate": "picture_analysis",
+      "predicate": "Picture_Analysis",
       "entry": [
         {
           "value": "ghiro",
@@ -675,7 +580,7 @@
       ]
     },
     {
-      "predicate": "metadata_forensics",
+      "predicate": "Metadata_Forensics",
       "entry": [
         {
           "value": "foca",
@@ -685,7 +590,7 @@
       ]
     },
     {
-      "predicate": "steganography",
+      "predicate": "Steganography",
       "entry": [
         {
           "value": "steghide",

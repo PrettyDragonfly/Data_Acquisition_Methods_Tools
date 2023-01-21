@@ -17,7 +17,6 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
     - [Memory Forensics](#memory-forensics)
     - [Network Forensics](#network-forensics)
     - [Windows Artifacts](#windows-artifacts)
-      - [NTFS/MFT Processing](#ntfsmft-processing)
     - [OS X Forensics](#os-x-forensics)
     - [Mobile Forensics](#mobile-forensics)
     - [Docker Forensics](#docker-forensics)
@@ -153,17 +152,6 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [python-evt](https://github.com/williballenthin/python-evt) - Pure Python parser for classic Windows Event Log files (.evt)
 - [RegRipper3.0](https://github.com/keydet89/RegRipper3.0) - RegRipper is an open source Perl tool for parsing the Registry and presenting it for analysis
 - [RegRippy](https://github.com/airbus-cert/regrippy) - A framework for reading and extracting useful forensics data from Windows registry hives
-
-
-#### NTFS/MFT Processing
-
-- [MFT-Parsers](http://az4n6.blogspot.com/2015/09/whos-your-master-mft-parsers-reviewed.html) - Comparison of MFT-Parsers
-- [MFTEcmd](https://binaryforay.blogspot.com/2018/06/introducing-mftecmd.html) - MFT Parser by Eric Zimmerman
-- [MFTExtractor](https://github.com/aarsakian/MFTExtractor) - MFT-Parser
-- [NTFS journal parser](http://strozfriedberg.github.io/ntfs-linker/)
-- [NTFS USN Journal parser](https://github.com/PoorBillionaire/USN-Journal-Parser)
-- [RecuperaBit](https://github.com/Lazza/RecuperaBit) - Reconstruct and recover NTFS data
-- [python-ntfs](https://github.com/williballenthin/python-ntfs) - NTFS analysis
 
 ## OS X Forensics
 
