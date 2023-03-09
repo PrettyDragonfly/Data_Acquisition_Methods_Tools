@@ -106,3 +106,6 @@ for cat in tools_categories:
 
 with open("../json/data-acquisition-tools.json", 'wt', encoding='utf-8') as f:
     json.dump(taxonomy.to_dict(), f, indent=2, ensure_ascii=False)
+    print("")
+    print("Now you can observe the result with the following command :")
+    print("cat ../json/data-acquisition-tools.json")
