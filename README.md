@@ -18,10 +18,10 @@ project by proposing this taxonomies.
 
 ## Usage
 
-cd script
-python3 data_acquisition_methods.py
+* cd script
+* python3 data_acquisition_methods.py
 or
-python3 data_acquisition_tools.py
+* python3 data_acquisition_tools.py
 
 ## For more about DFIR
 
