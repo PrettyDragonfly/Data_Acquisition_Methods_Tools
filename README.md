@@ -23,6 +23,7 @@ project by proposing this taxonomies.
 cd script
 python3 data_acquisition_methods.py
 python3 data_acquisition_tools.py
+```
 
 ## For more about DFIR
 
