@@ -16,7 +16,6 @@ project by proposing this taxonomies.
 
 * **Camille Bour** _alias_ [@PrettyDragonfly](https://github.com/PrettyDragonfly)
 
-<<<<<<< HEAD
 ## Usage
 
 ```python
@@ -25,8 +24,6 @@ cd script
 python3 data_acquisition_methods.py
 python3 data_acquisition_tools.py
 
-=======
->>>>>>> parent of d7916bd... add usage to README
 ## For more about DFIR
 
 * https://github.com/PrettyDragonfly/Incident_Response (Taxonomy for incident response tools)
